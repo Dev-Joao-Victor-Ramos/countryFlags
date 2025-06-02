@@ -1,36 +1,140 @@
 body{
-    background-color: black;
+    display:flex;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(14, 113, 241);
+    justify-content: space-around;
+    
+} 
+
+article{
+    margin-top: 15px;
+    border-radius: 10px;
+    height: 150px;
+    width: 300px;
+    overflow: hidden;
 }
-
-
 .japao_fundo{
     background-color: white;
-    width: 800px;
-    height: 500px;
+    width: 300px;
+    height: 150px;
     display: flex;
     align-items: center ;
     justify-content: center;
-    border-radius: 10px;
-    margin: 100px;
+    
+    /*margin: 100px;*/
+    align-self: center;
 }
 
 .japao_circuloV{
     background-color: red;
-    width: 300px;
-    height: 300px;
+    width: 75px;
+    height: 75px;
     border-radius: 300px;
     
 }
 
-.polonia_branco{
+.polonia {
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.polonia_branco,
+.polonia_vermelho {
+    width: 100%;
+    height: 50%;
+}
+
+.polonia_branco {
     background-color: white;
-    width: 800px;
-    height: 500px;
+}
+
+.polonia_vermelho {
+    background-color: #DC143C;
+}
+
+
+.italia{
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    
+}
+
+.italia_verde,
+.italia_branco,
+.italia_vermelho {
+    height: 100%;
+    width: calc(100% / 3);
+}
+
+.italia_verde {
+    background-color: #009246;
+}
+
+.italia_branco {
+    background-color: white;
+}
+
+.italia_vermelho {
+    background-color: #CE2B37;
+}
+
+.suecia{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: #005293;
+}
+
+.suecia_amarelo_x{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    background-color: #FECB00;
+    top: 60px;
+}
+
+.suecia_amarelo_y{
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    background-color: #FECB00;
+    left: 79px;
+}
+
+
+
+.tobago{
+    background-color: #CE2B37;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.faixa-preta{
+    height: 400px;
+    width: 30px;
+    background-color: black;
+    border: 10px;
+    border-style: solid;
+    border-color: aliceblue;
+    transform: rotate(-60deg);
 
 }
 
 
-.poolonia_ve
+
+
+
+
+
+
 
 
 
