@@ -151,7 +151,36 @@ article{
     position: absolute;
 }
 
+.kuwait {
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    position: relative;
+    align-content: space-between;
+}
 
+.kuwait_preto {
+    height: 100%;
+    width: 25%;
+    clip-path: polygon(0% 0%, 100% 33.334%, 100% 66.667%, 0% 100%);
+    background-color: black;
+    position: absolute;
+}
+
+.kuwait_verde {
+    background-color: #007A3D;
+    width: 100%;
+    height: 33.334%;
+    position: absolute;
+}
+
+.kuwait_vermelho {
+    background-color: #CE1126;
+    width: 100%;
+    height: 33.334%;
+    margin-top: 41.6%;
+    position: absolute;
+}
 
 
 
